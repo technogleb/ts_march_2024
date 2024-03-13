@@ -1,4 +1,4 @@
-## Time series course of seminars for sber staff (enrollment march 2023)
+## Time series course of seminars for sber staff (enrollment march 2024)
 
 ### install python environment for the course (*unix)
 * use python3.10 (can be easily installed via pyenv or system wide via your package
