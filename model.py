@@ -266,7 +266,7 @@ class TimeSeriesPredictor(BaseEstimator):
         form in which they
         were submitted to the
         model'''
-        lag_dict = {'lag_{}'.format(i): [ts[-i]] for i in range(self.num_lags, 0, -1)}
+        lag_dict = {'lag_{}'.format(i): [ts.iloc[-i]] for i in range(self.num_lags, 0, -1)}
         #lag_dict = {'lag_{}'.format(i): [ts[-i]] for i in range(1, self.num_lags + 1)}
 
 
